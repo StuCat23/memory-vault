@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { createMemory } from '@/app/actions/create-memory';
-import { uploadPhoto } from '@/utils/storage/uploadPhoto';
+import { uploadPhoto } from '@/lib/storage/uploadPhoto';
 import { useRouter } from 'next/navigation';
 
 export default function CreateMemoryPage() {
